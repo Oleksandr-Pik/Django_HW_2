@@ -1,0 +1,20 @@
+python -m venv .venv
+
+mkdir project
+
+source .venv/Scripts/activate
+
+pip install django
+
+django-admin startproject config project
+
+cd project
+
+django-admin startapp main
+
+django-admin startapp main
+...
+
+# реєструємо apps в settings.py
+python manage.py runserver
+

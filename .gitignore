@@ -1,0 +1,35 @@
+# Python-specific files
+*.pyc
+__pycache__/
+*.log
+*.egg-info/
+.Python
+build/
+dist/
+
+# Django-specific files
+*.pot
+db.sqlite3
+local_settings.py
+media/ # Or other directories for user-uploaded files, if not managed by a separate storage solution
+
+# Virtual Environment
+.venv
+.env
+venv/
+env/
+
+# IDE-specific files (examples for common IDEs)
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test coverage and other temporary files
+.coverage
+.tox/
+.eggs/
