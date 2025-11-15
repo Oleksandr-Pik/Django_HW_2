@@ -33,3 +33,6 @@ Thumbs.db
 .coverage
 .tox/
 .eggs/
+
+keys.py
+weather_app/keys.py
